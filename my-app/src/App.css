@@ -1,0 +1,73 @@
+.app{
+  background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; 
+}
+
+/* .mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box{
+
+}
+ */
+
+ .mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.search-button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.city {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.temp {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.weather {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
